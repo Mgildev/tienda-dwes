@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+body {
+  background-color: #FFFFFF;
+}
+.navbar-inverse, #footer {
+    background-color: #233936;
+    border-color: #778435;
+}
+#footer p{
+  color:#fff;
+}
+
+#footer{
+  width: 100%;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
+  color:#FFF;
+}
+.list-group-item.active{
+  background: #233936;
+  border-color:#233936;
+}
+a{
+  color:#c9302c;
+}
+
+h2 {
+    color: #fff;
+    background: #233936;
+    padding: 4px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.thumbnail{
+  background-color: #fff;
+  height: 400px;
+}
+.thumbnail a > img, .thumbnail > img {
+
+    max-height: 200px;
+}
+.thumbnail .btn{
+position:absolute; bottom:4px; right:4px;
+}
+.thumbnail h4{
+position:absolute; bottom:4px; left:4px;
+}
+.thumbnail .caption h4{
+  position:relative;
+}
+@media (max-width: 769px) {
+  .thumbnail {
+    height: auto;
+  }
+  .thumbnail h4,   .thumbnail .btn{
+    position: relative;
+    padding: 8px;
+  }
+}
+.fa{
+  color: #c9302c;
+}
+.menu-ico-collapse {
+    margin-left: 4px;
+}
+
+.list-group-submenu .list-group-item:first-child {
+     border-top-right-radius: 0;
+     border-top-left-radius: 0;
+}
+
+.list-group-submenu .list-group-item:last-child {
+     margin-bottom: -1px;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+}
+h2.subtitle{
+  margin-top:0;
+}
+.carro{
+  position:relative; border:1px solid #ddd; border-radius:4px; padding:4px;
+}

@@ -1,0 +1,41 @@
+body {
+  background-color: #FFFFFF;
+}
+.navbar-inverse, #footer {
+    background-color: #233936;
+    border-color: #778435;
+}
+#footer p{
+  color:#fff;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
+  color:#FFF;
+}
+.list-group-item.active{
+  background: #233936;
+  border-color:#233936;
+}
+a{
+  color:#c9302c;
+}
+
+h2 {
+    color: #fff;
+    background: #233936;
+    padding: 4px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.thumbnail{
+  background-color: #fff;
+  height: 400px;
+}
+.thumbnail a > img, .thumbnail > img {
+
+    max-height: 200px;
+}
+@media (max-width: 769px) {
+  .thumbnail {
+    height: auto;
+  }
+}
